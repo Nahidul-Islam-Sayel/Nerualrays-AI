@@ -1,0 +1,244 @@
+.nev-bg {
+  background-repeat: no-repeat;
+  background-image: url("../img/Background.jpeg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: -20px;
+  width: 100%;
+  height: 680px;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+  background-size: 100%;
+}
+.nev-home {
+  color: blue;
+}
+.navbar-brand {
+  height: 110px;
+}
+
+.navbar-nav {
+  margin-left: 300px;
+}
+
+.navbar-nav li {
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-item:hover {
+  color: blue;
+}
+.nev-button {
+  width: 170px;
+
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.nev-text {
+  font-weight: bold;
+}
+.nev-text p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: rgb(74, 74, 241);
+}
+.nevbarbackground {
+  position: fixed;
+}
+
+.navbar.colorChange {
+  background-color: white;
+  width: 100%;
+
+  position: fixed;
+  z-index: 20;
+}
+@media only screen and (max-width: 1396px) {
+  .nevbarbackground {
+    font-size: 15px;
+    width: 100%;
+
+    color: black;
+  }
+  .navbar-nav {
+    margin-left: 150px;
+  }
+  .nevbarbackground {
+    z-index: 20px;
+    color: black;
+  }
+}
+@media only screen and (max-width: 1223px) {
+  .nevbarbackground {
+    background-color: white;
+    z-index: 20px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .navbar-nav li {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .nev-text h1 {
+    font-size: 30px;
+  }
+  .nev-text p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1027px) {
+  .navbar-nav li {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .nev-text h1 {
+    font-size: 25px;
+  }
+  .nev-text p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar-nav li {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .nev-text h1 {
+    font-size: 25px;
+  }
+  .nev-text p {
+    font-size: 15px;
+  }
+  .nev-bg {
+    width: 100%;
+  }
+  .nevbarbackground {
+    font-size: 15px;
+    background-color: white;
+    z-index: 20px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .nev-text h1 {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .nev-button {
+    width: 100px;
+
+    height: 30px;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 30px;
+  }
+  .nev-text p {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .nevbarbackground {
+    background-color: white;
+
+    z-index: 20px;
+    color: black;
+  }
+}
+@media only screen and (max-width: 553px) {
+  .nev-text {
+    margin-top: 80px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+  }
+  .nev-button {
+    margin-left: 40px;
+    margin-top: 0px !important;
+  }
+  .nev-text p {
+    font-size: 8px;
+  }
+  .nev-text h1 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 553px) {
+  .nev-text {
+    margin-top: 40px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+  }
+  .nev-button {
+    margin-left: 40px;
+    margin-top: 0px !important;
+  }
+  .nev-text p {
+    font-size: 8px;
+  }
+  .nev-text h1 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 409px) {
+  .nev-text {
+    margin-top: 45px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+  }
+  .nev-button {
+    margin-left: 40px;
+    margin-top: 0px !important;
+  }
+  .nev-text p {
+    font-size: 8px;
+  }
+  .nev-text h1 {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 387px) {
+  .nev-text {
+    margin-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+  }
+  .nev-button {
+    margin-left: 40px;
+    margin-top: 0px !important;
+  }
+  .nev-text p {
+    font-size: 8px;
+  }
+  .nev-text h1 {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nev-text {
+    margin-top: 40px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+  }
+  .nev-button {
+    margin-left: 40px;
+    margin-top: 0px !important;
+  }
+  .nev-text p {
+    font-size: 5px;
+  }
+  .nev-text h1 {
+    margin-top: 30px;
+    font-size: 10px;
+  }
+}

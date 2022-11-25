@@ -1,0 +1,29 @@
+.abouttitle {
+  background-color: #173583;
+  height: 150px;
+  color: white;
+}
+
+.text p {
+  font-size: 18px;
+  color: rgb(19, 2, 2);
+  font-style: italic;
+}
+.text button {
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+}
+.card_img {
+  height: 200px;
+  width: 200px;
+}
+.profile h5 {
+  color: #173583;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.profileinfo {
+  text-align: center;
+}

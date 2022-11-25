@@ -1,0 +1,47 @@
+.services {
+  color: #5574ab;
+  text-align: center;
+}
+.servicesread {
+  color: #5574ab;
+  text-align: center;
+  cursor: pointer;
+}
+.underline {
+  height: 50px;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+
+  margin-left: 30%;
+}
+.card {
+  height: 100%;
+  border: 0px;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 2px 2px 5px black;
+}
+@media only screen and (max-width: 991px) {
+  .card img {
+    margin-left: 45%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .card img {
+    margin-left: 43%;
+  }
+}
+@media only screen and (max-width: 759px) {
+  .card img {
+    margin-left: 42%;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  .card img {
+    margin-left: 40%;
+  }
+}

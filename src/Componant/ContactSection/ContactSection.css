@@ -1,0 +1,29 @@
+.contactsection_text h6 {
+  font-weight: bold;
+  color: #5574ab;
+}
+.contactsection_text p {
+  font-size: 18px;
+}
+.box {
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+  width: 100%;
+}
+.box h2 {
+  font-weight: bold;
+}
+.twopart {
+  margin: 10px;
+  height: 50px;
+  width: 90%;
+  border: 1px solid gray;
+}
+.onepart {
+  height: 150px;
+}
+.box button {
+  height: 50px;
+  width: 130px;
+  border-radius: 20px;
+}

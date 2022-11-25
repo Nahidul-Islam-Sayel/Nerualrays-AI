@@ -1,0 +1,17 @@
+.Contact {
+  text-align: center;
+}
+.contact-button {
+  background-color: #0c1c2c;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+}
+.Contact h1 {
+  color: #5574ab;
+  font-style: italic;
+}
+.Contact p {
+  font-size: 25px;
+}
